@@ -1,22 +1,86 @@
 aid: gym-class-vr
 name: Gym Class VR
-description: Gym Class VR is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Gym Class VR (operating as "Gym Class" by IRL Studios) is a social virtual
+  reality sports gaming platform for Meta Quest headsets and mobile devices,
+  offering multiplayer basketball, baseball, football, boxing, paintball, and
+  soccer experiences where players compete, socialize, and create and share
+  their own games. The top-rated sports title on the Meta Quest Store with a
+  4.8-star average across 53,000+ ratings, the company holds licensing
+  agreements with the NBA and Major League Baseball, expanded to mobile in 2026,
+  and has raised over $8M from Andreessen Horowitz (a16z), Y Combinator, and NBA
+  players. It is a consumer VR entertainment product with no public developer
+  API, SDK, or developer portal at this time.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://static.gymclassvr.com/media/cover_image_stacked_logo_v1.png
 url: https://raw.githubusercontent.com/api-evangelist/gym-class-vr/refs/heads/main/apis.yml
+website: https://www.gymclass.com/
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
+- Y Combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Virtual Reality
+- VR
+- Gaming
+- Sports
+- Meta Quest
+- Consumer
+- Social
 apis: []
+common:
+- type: DomainSecurity
+  url: security/gym-class-vr-domain-security.yml
+- type: Website
+  url: https://www.gymclass.com/
+- type: TermsOfService
+  url: https://www.gymclass.com/tos
+- type: PrivacyPolicy
+  url: https://www.gymclass.com/privacy
+- type: Support
+  url: mailto:support@gymclass.com
+- type: MetaQuest
+  url: https://www.meta.com/experiences/3661420607275144/
+- type: AppStore
+  url: https://apps.apple.com/us/app/gym-class-vr-companion-app/id6459104919
+- type: GooglePlay
+  url: https://play.google.com/store/apps/details?id=com.gymclassvr&hl=en_US
+- type: Careers
+  url: https://www.ycombinator.com/companies/gym-class-by-irl-studios/jobs/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/72354211/
+- type: YouTube
+  url: https://www.youtube.com/@gymclassvr
+- type: Twitter
+  url: https://twitter.com/gymclassvr
+- type: Instagram
+  url: https://instagram.com/gymclassvr
+- type: TikTok
+  url: https://tiktok.com/@gymclassvr
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
